@@ -65,7 +65,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\logo.png" />
+    <Content Include="allcoffees.html" />
+    <Content Include="coffeedetails.html" />
+    <Content Include="Images\coffee\coffee1.jpg" />
+    <Content Include="Images\logo.png" />
     <Content Include="index.html" />
     <Content Include="Scripts\jquery.min.js" />
     <Content Include="style.css" />
@@ -74,6 +77,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
